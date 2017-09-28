@@ -50,15 +50,14 @@ buildscript {
 		}
 	}
 	dependencies {
-		classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
-		classpath 'me.tatarka:gradle-retrolambda:3.2.0'
+		classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
 		classpath 'com.github.jengelman.gradle.plugins:shadow:2.0.0'
 		classpath 'gradle.plugin.net.minecrell:licenser:0.3'
 		classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.3'
 	}
 }
 
-apply from: 'https://raw.githubusercontent.com/elytra/Skeleton/1.11.2/build.gradle'
+apply from: 'https://raw.githubusercontent.com/elytra/Skeleton/1.12/build.gradle'
 ```
 
 This will make the skeleton auto-update, but is possibly a security risk and
